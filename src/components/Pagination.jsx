@@ -7,7 +7,7 @@ const Pagination = ({ itemsPerPage, totalItems, currentPage, handlePageChange })
    }
 
    return (
-      <nav className='fixed bottom-6'>
+      <nav>
          <ul className="pagination flex items-center gap-4 mt-10">
             {pageNumbers.map(number => (
                <li key={number} className="page-item">
